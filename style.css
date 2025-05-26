@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f7f6;
+    color: #333;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background: #469ced;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.charts-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.chart-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.chart-card canvas {
+    max-width: 100%;
+}
+
+.chart-title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.table-section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.table-section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+a {
+    color: #469ced;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
